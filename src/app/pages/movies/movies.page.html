@@ -7,7 +7,7 @@
 <ion-content>
   <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="searchChanged($event)" ></ion-searchbar>
   <ion-item>
-    <ion-label> Seleccione tipo de pelicula </ion-label>
+    <ion-label>Tipo</ion-label>
       <ion-select [(ngModel)]="type" (ionChange)="searchChanged($event)">
         <ion-select-option value="">All</ion-select-option>
         <ion-select-option value="movie">Movie</ion-select-option>
